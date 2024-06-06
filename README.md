@@ -1,5 +1,14 @@
 ![image](https://github.com/alexandrevilhena/gs_oceans/assets/97708892/cec116d1-19b2-4977-89c7-dddf9d3eb43b)
 
+Passo a Passo:
+- Abrir o arquivo do Projeto no VS Code
+- No terminal:
+  - Ir até a pasta do projeto usanco o código 'cd'
+  - Rodar o código 'ng serve -o'
+  - OBS: caso dê erro, provavelmente irá pedir para rodar 'npm install'
+ ![image](https://github.com/alexandrevilhena/gs_oceans/assets/97708892/08fef76a-83dd-47fb-8d62-4a8d4baae648)
+  
+
 
 # App
 
