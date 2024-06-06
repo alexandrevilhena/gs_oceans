@@ -1,2 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Oceanic Data Explorer</title>
+<link rel="stylesheet" href="app.component.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#ocean-conditions">Condições Oceânicas</a></li>
+      <li><a href="#endangered-species">Espécies Ameaçadas</a></li>
+      <li><a href="#conservation-projects">Projetos de Conservação</a></li>
+    </ul>
+  </nav>
+  <section id="filters">
+    <label for="region">Região:</label>
+    <select id="region" name="region">
+      <option value="all">Todos</option>
+      <!-- Adicione mais opções de região aqui -->
+    </select>
+
+    <label for="species">Espécies:</label>
+    <select id="species" name="species">
+      <option value="all">Todos</option>
+      <!-- Adicione mais opções de espécies aqui -->
+    </select>
+
+    <label for="conservation-status">Status de Conservação:</label>
+    <select id="conservation-status" name="conservation-status">
+      <option value="all">Todos</option>
+      <!-- Adicione mais opções de status de conservação aqui -->
+    </select>
+
+    <label for="water-temperature">Temperatura da Água:</label>
+    <input type="number" id="water-temperature" name="water-temperature" min="0" placeholder="°C">
+
+    <label for="ph-level">pH:</label>
+    <input type="number" id="ph-level" name="ph-level" step="0.01" placeholder="7.0">
+
+    <label for="pollution-level">Nível de Poluição:</label>
+    <select id="pollution-level" name="pollution-level">
+      <option value="all">Todos</option>
+      <!-- Adicione mais opções de nível de poluição aqui -->
+    </select>
+
+    <button type="submit">Buscar</button>
+  </section>
+</header>
+
+<main>
+  <table>
+    <caption>Tabela de Dados 1</caption>
+    <thead>
+      <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+        <th>Coluna 3</th>
+        <th>Coluna 4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dado 1</td>
+        <td>Dado 2</td>
+        <td>Dado 3</td>
+        <td>Dado 4</td>
+      </tr>
+      <!-- Adicione mais linhas de dados aqui -->
+    </tbody>
+  </table>
+
+  <!-- Adicione controles de paginação aqui -->
+</main>
+
+</body>
+</html>
 
 <app-ocean></app-ocean>
