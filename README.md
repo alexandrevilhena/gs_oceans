@@ -1,3 +1,6 @@
+![image](https://github.com/alexandrevilhena/gs_oceans/assets/97708892/cec116d1-19b2-4977-89c7-dddf9d3eb43b)
+
+
 # App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
